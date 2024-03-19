@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: lightgray;
+}
+
 /* HEADER */
+
+header{
+    background-color: white;
+}
 
 h1{
     display: inline;
@@ -17,12 +25,25 @@ img, h1{
 
 /* MAIN */
 
-main{
-    background-color: lightgrey;
-}
-
 .container{
     background-color: white;
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    margin: 50px auto;
+}
+
+button{
+    padding: 10px;
+    margin: 20px 0 10px 50px;
+    border-radius: 7%;
+}
+
+.task{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.section{
+    color: gray;
+    border-color: gray;
 }
