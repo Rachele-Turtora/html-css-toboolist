@@ -23,7 +23,7 @@ img, h1{
     padding: 10px 0 10px 20px
 }
 
-/* MAIN */
+/* MAIN - BUTTONS*/
 
 .container{
     background-color: white;
@@ -47,3 +47,42 @@ button{
     color: gray;
     border-color: gray;
 }
+
+/* MAIN - LIST */
+
+.list{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-point {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tag, .bullet{
+    display: inline-block;
+}
+
+.bullet{
+    height: 20px;
+    width: 20px;
+    border: 0.5px solid;
+    border-radius: 50%;
+    padding-left: 3px;
+}
+
+.check{
+    color: green;
+}
+
+.cross{
+    color: red
+}
+
